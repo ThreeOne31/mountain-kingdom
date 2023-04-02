@@ -14,15 +14,15 @@
 }
 
 body {
-  background: linear-gradient(90deg, rgba(24, 182, 246, 0.3) 0%, rgba(172, 127, 244, 0.3) 100%);
+  background: whitesmoke; /* linear-gradient(90deg, rgba(24, 182, 246, 0.3) 0%, rgba(172, 127, 244, 0.3) 100%); */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   font-weight: 200;
   padding: 10px 0px;
 }
 
 ::selection {
-  background: rgb(8, 2, 61);
-  color: white;
+  background: whitesmoke;/* rgb(8, 2, 61); */
+  color: rgb(66, 64, 64);
 }
 
 h1,
@@ -38,7 +38,7 @@ h3 b {
 }
 
 h1 {
-  color: white;
+  color: rgb(66, 64, 64);
   font-size: 2rem;
   padding: 0;
   margin: 0;
@@ -55,8 +55,8 @@ h2 {
 input[type='text'],
 button {
   background-color: transparent;
-  color: white;
-  border: 1px solid white;
+  color: rgb(48, 46, 46);
+  border: 1px solid rgb(75, 73, 73);
   border-radius: 12px;
   font-size: 1rem;
   padding: 10px 20px;
@@ -79,7 +79,7 @@ button.small {
 
 button.gray {
   border-color: #aaa;
-  color: #aaa;
+  color: #434141;
 }
 
 a,
@@ -114,7 +114,7 @@ ul {
   width: 90vw;
   max-width: 1200px;
   margin: 0 auto;
-  background: linear-gradient(90deg, rgba(24, 182, 246, 0.6) 0%, rgba(172, 127, 244, 0.6) 100%);
+  background: #fff; /* linear-gradient(90deg, rgba(24, 182, 246, 0.6) 0%, rgba(172, 127, 244, 0.6) 100%); */
   overflow: hidden;
   border-radius: 6px;
 }
@@ -160,10 +160,6 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  body {
-    padding: 60px 0px;
-  }
-
   h1 {
     font-size: 3rem;
   }

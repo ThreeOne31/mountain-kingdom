@@ -9,18 +9,18 @@ import Starter from '~/components/starter/next-steps/next-steps';
 export default component$(() => {
   return (
     <>
-      <Hero />
+      {/* <Hero /> */}
 
-      <div class="section bright">
+      {/* <div class="section bright">
         <div class="container center">
           <Starter />
         </div>
-      </div>
+      </div> */}
 
       <div class="section">
         <div class="container center">
           <h3>
-            You can <b>count</b> on me
+            Welcome to The Mountain Kingdom xD maybe
           </h3>
           <Counter />
         </div>
@@ -28,7 +28,7 @@ export default component$(() => {
 
       <div class="section">
         <div class="container topics">
-          <Infobox>
+          {/* <Infobox>
             <div q:slot="title" class="icon icon-cli">
               CLI Commands
             </div>
@@ -54,10 +54,10 @@ export default component$(() => {
                 Runs the qwik CLI to add integrations
               </p>
             </>
-          </Infobox>
+          </Infobox> */}
 
           <div>
-            <Infobox>
+            {/* <Infobox>
               <div q:slot="title" class="icon icon-apps">
                 Example Apps
               </div>
@@ -65,9 +65,9 @@ export default component$(() => {
                 Have a look at the <a href="/demo/flower">Flower App</a> or the{' '}
                 <a href="/demo/todolist">Todo App</a>.
               </p>
-            </Infobox>
+            </Infobox> */}
 
-            <Infobox>
+            {/* <Infobox>
               <div q:slot="title" class="icon icon-community">
                 Community
               </div>
@@ -98,7 +98,7 @@ export default component$(() => {
                   </a>
                 </li>
               </ul>
-            </Infobox>
+            </Infobox> */}
           </div>
         </div>
       </div>
@@ -107,11 +107,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: 'Welcome to The Mountain Kigndom',
   meta: [
     {
       name: 'description',
-      content: 'Qwik site description',
+      content: 'Everything about The Mountain Kingdom',
     },
   ],
 };
