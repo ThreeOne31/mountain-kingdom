@@ -9,7 +9,7 @@ export default component$(() => {
   return (
     <footer>
       <a href="/" class={styles.anchor}>
-        Made with ♡ by Abuti Khomo
+        Made with ♡ by Abuti Khomo xD
         <span class={styles.spacer}>|</span>
         <span>{moment(serverTime.value.date).format("YYYY-MM-DD")}</span>
       </a>
